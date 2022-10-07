@@ -1,5 +1,5 @@
 
-# Globoplay Recrutamento 
+# PayTV Recrutamento 
 
 ---
 ![JPG](https://lh3.googleusercontent.com/62viiAWxbh_4QQdbdZOeO53yDsq1jZu_KyQstDpbXgTryhTIjrPzW9nr0eFkMuoxs6wx=s180)
