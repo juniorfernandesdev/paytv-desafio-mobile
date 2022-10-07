@@ -7,7 +7,7 @@
 
 ## Bem vindo
 
-Obrigado por participar do desafio do Globoplay! Estamos muito contentes pelo seu primeiro passo para fazer parte de um time excepcional. Você deverá criar um aplicativo sobre filmes, usando a [API](https://developers.themoviedb.org/3/getting-started/introduction) do [TheMovieDB](https://www.themoviedb.org/?language=en).
+Obrigado por participar do desafio do Mobile! Estamos muito contentes pelo seu primeiro passo para fazer parte de um time excepcional. Você deverá criar um aplicativo sobre filmes, usando a [API](https://developers.themoviedb.org/3/getting-started/introduction) do [TheMovieDB](https://www.themoviedb.org/?language=en).
 Para termos um layout minimamente definido, anexamos alguns assets que vão te ajudar a desenvolver esse app:
 
 - [ScreenShots](assets/screenshots)
