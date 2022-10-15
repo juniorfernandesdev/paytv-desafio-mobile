@@ -27,7 +27,7 @@ DerivedData/
 !default.perspectivev3
 
 ##other files
-*.DS_Store
+**/.DS_Store
 
 ## Obj-C/Swift specific
 *.hmap
