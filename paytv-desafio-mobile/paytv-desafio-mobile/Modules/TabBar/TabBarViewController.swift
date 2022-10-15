@@ -33,7 +33,7 @@ class TabBarViewController: UITabBarController {
         itens[1].title = "Minha lista"
         itens[1].image = UIImage(named: "star_rate")
         
-        tabBar.unselectedItemTintColor = .gray
-        tabBar.tintColor = .white
+        tabBar.unselectedItemTintColor = .secundaryBlackColor
+        tabBar.tintColor = .whiteColor
     }
 }

@@ -25,6 +25,7 @@
 		BF33774928FB213A0000A3D8 /* NetworkStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF33774828FB213A0000A3D8 /* NetworkStatus.swift */; };
 		BF805B2A28FB275B00F15E4E /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF805B2928FB275B00F15E4E /* TabBarViewController.swift */; };
 		BF805B2D28FB277900F15E4E /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF805B2C28FB277900F15E4E /* FavoriteViewController.swift */; };
+		BF805B3128FB466200F15E4E /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF805B3028FB466200F15E4E /* UIColor+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		BF33774828FB213A0000A3D8 /* NetworkStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkStatus.swift; sourceTree = "<group>"; };
 		BF805B2928FB275B00F15E4E /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		BF805B2C28FB277900F15E4E /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		BF805B3028FB466200F15E4E /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		FC99677C69727BF8DC4CEBE9 /* Pods-paytv-desafio-mobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paytv-desafio-mobile.release.xcconfig"; path = "Target Support Files/Pods-paytv-desafio-mobile/Pods-paytv-desafio-mobile.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -178,6 +180,7 @@
 		BF33773428FAF17D0000A3D8 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				BF805B2F28FB463400F15E4E /* Extensions */,
 				BF33773C28FB005F0000A3D8 /* Layers */,
 				BF33773628FAF1980000A3D8 /* AppAssets */,
 			);
@@ -187,8 +190,8 @@
 		BF33773528FAF18D0000A3D8 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				BF805B2B28FB276600F15E4E /* Favorite */,
 				BF805B2828FB273600F15E4E /* TabBar */,
+				BF805B2B28FB276600F15E4E /* Favorite */,
 				BF33773728FAF3830000A3D8 /* Home */,
 			);
 			path = Modules;
@@ -295,6 +298,14 @@
 				BF805B2C28FB277900F15E4E /* FavoriteViewController.swift */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		BF805B2F28FB463400F15E4E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BF805B3028FB466200F15E4E /* UIColor+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -543,6 +554,7 @@
 				BF805B2A28FB275B00F15E4E /* TabBarViewController.swift in Sources */,
 				BF33774928FB213A0000A3D8 /* NetworkStatus.swift in Sources */,
 				BF33774028FB1F410000A3D8 /* APIConfig.swift in Sources */,
+				BF805B3128FB466200F15E4E /* UIColor+Extensions.swift in Sources */,
 				BF33773B28FAF39F0000A3D8 /* HomeViewController.swift in Sources */,
 				BF33774428FB20910000A3D8 /* ResponseHandler.swift in Sources */,
 			);
