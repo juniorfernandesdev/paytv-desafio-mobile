@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF33770528FAEEEB0000A3D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF33770428FAEEEB0000A3D8 /* AppDelegate.swift */; };
+		BF33770728FAEEEB0000A3D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF33770628FAEEEB0000A3D8 /* SceneDelegate.swift */; };
+		BF33770E28FAEEED0000A3D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF33770D28FAEEED0000A3D8 /* Assets.xcassets */; };
+		BF33771128FAEEED0000A3D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF33770F28FAEEED0000A3D8 /* LaunchScreen.storyboard */; };
+		BF33771C28FAEEEE0000A3D8 /* paytv_desafio_mobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF33771B28FAEEEE0000A3D8 /* paytv_desafio_mobileTests.swift */; };
+		BF33772628FAEEEE0000A3D8 /* paytv_desafio_mobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF33772528FAEEEE0000A3D8 /* paytv_desafio_mobileUITests.swift */; };
+		BF33772828FAEEEE0000A3D8 /* paytv_desafio_mobileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF33772728FAEEEE0000A3D8 /* paytv_desafio_mobileUITestsLaunchTests.swift */; };
+		BF33773B28FAF39F0000A3D8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF33773A28FAF39F0000A3D8 /* HomeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF33771828FAEEEE0000A3D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF3376F928FAEEEB0000A3D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF33770028FAEEEB0000A3D8;
+			remoteInfo = "paytv-desafio-mobile";
+		};
+		BF33772228FAEEEE0000A3D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF3376F928FAEEEB0000A3D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF33770028FAEEEB0000A3D8;
+			remoteInfo = "paytv-desafio-mobile";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF33770128FAEEEB0000A3D8 /* paytv-desafio-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "paytv-desafio-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF33770428FAEEEB0000A3D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF33770628FAEEEB0000A3D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BF33770D28FAEEED0000A3D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF33771028FAEEED0000A3D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF33771228FAEEED0000A3D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF33771728FAEEEE0000A3D8 /* paytv-desafio-mobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "paytv-desafio-mobileTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF33771B28FAEEEE0000A3D8 /* paytv_desafio_mobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paytv_desafio_mobileTests.swift; sourceTree = "<group>"; };
+		BF33772128FAEEEE0000A3D8 /* paytv-desafio-mobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "paytv-desafio-mobileUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF33772528FAEEEE0000A3D8 /* paytv_desafio_mobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paytv_desafio_mobileUITests.swift; sourceTree = "<group>"; };
+		BF33772728FAEEEE0000A3D8 /* paytv_desafio_mobileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paytv_desafio_mobileUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BF33773A28FAF39F0000A3D8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF3376FE28FAEEEB0000A3D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF33771428FAEEEE0000A3D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF33771E28FAEEEE0000A3D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF3376F828FAEEEB0000A3D8 = {
+			isa = PBXGroup;
+			children = (
+				BF33770328FAEEEB0000A3D8 /* paytv-desafio-mobile */,
+				BF33771A28FAEEEE0000A3D8 /* paytv-desafio-mobileTests */,
+				BF33772428FAEEEE0000A3D8 /* paytv-desafio-mobileUITests */,
+				BF33770228FAEEEB0000A3D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF33770228FAEEEB0000A3D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF33770128FAEEEB0000A3D8 /* paytv-desafio-mobile.app */,
+				BF33771728FAEEEE0000A3D8 /* paytv-desafio-mobileTests.xctest */,
+				BF33772128FAEEEE0000A3D8 /* paytv-desafio-mobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF33770328FAEEEB0000A3D8 /* paytv-desafio-mobile */ = {
+			isa = PBXGroup;
+			children = (
+				BF33771228FAEEED0000A3D8 /* Info.plist */,
+				BF33773428FAF17D0000A3D8 /* Shared */,
+				BF33773528FAF18D0000A3D8 /* Modules */,
+			);
+			path = "paytv-desafio-mobile";
+			sourceTree = "<group>";
+		};
+		BF33771A28FAEEEE0000A3D8 /* paytv-desafio-mobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF33771B28FAEEEE0000A3D8 /* paytv_desafio_mobileTests.swift */,
+			);
+			path = "paytv-desafio-mobileTests";
+			sourceTree = "<group>";
+		};
+		BF33772428FAEEEE0000A3D8 /* paytv-desafio-mobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF33772528FAEEEE0000A3D8 /* paytv_desafio_mobileUITests.swift */,
+				BF33772728FAEEEE0000A3D8 /* paytv_desafio_mobileUITestsLaunchTests.swift */,
+			);
+			path = "paytv-desafio-mobileUITests";
+			sourceTree = "<group>";
+		};
+		BF33773428FAF17D0000A3D8 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				BF33773628FAF1980000A3D8 /* AppAssets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		BF33773528FAF18D0000A3D8 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				BF33773728FAF3830000A3D8 /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		BF33773628FAF1980000A3D8 /* AppAssets */ = {
+			isa = PBXGroup;
+			children = (
+				BF33770428FAEEEB0000A3D8 /* AppDelegate.swift */,
+				BF33770628FAEEEB0000A3D8 /* SceneDelegate.swift */,
+				BF33770F28FAEEED0000A3D8 /* LaunchScreen.storyboard */,
+				BF33770D28FAEEED0000A3D8 /* Assets.xcassets */,
+			);
+			path = AppAssets;
+			sourceTree = "<group>";
+		};
+		BF33773728FAF3830000A3D8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BF33773828FAF3880000A3D8 /* ViewController */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BF33773828FAF3880000A3D8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BF33773A28FAF39F0000A3D8 /* HomeViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF33770028FAEEEB0000A3D8 /* paytv-desafio-mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF33772B28FAEEEE0000A3D8 /* Build configuration list for PBXNativeTarget "paytv-desafio-mobile" */;
+			buildPhases = (
+				BF3376FD28FAEEEB0000A3D8 /* Sources */,
+				BF3376FE28FAEEEB0000A3D8 /* Frameworks */,
+				BF3376FF28FAEEEB0000A3D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "paytv-desafio-mobile";
+			productName = "paytv-desafio-mobile";
+			productReference = BF33770128FAEEEB0000A3D8 /* paytv-desafio-mobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF33771628FAEEEE0000A3D8 /* paytv-desafio-mobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF33772E28FAEEEE0000A3D8 /* Build configuration list for PBXNativeTarget "paytv-desafio-mobileTests" */;
+			buildPhases = (
+				BF33771328FAEEEE0000A3D8 /* Sources */,
+				BF33771428FAEEEE0000A3D8 /* Frameworks */,
+				BF33771528FAEEEE0000A3D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF33771928FAEEEE0000A3D8 /* PBXTargetDependency */,
+			);
+			name = "paytv-desafio-mobileTests";
+			productName = "paytv-desafio-mobileTests";
+			productReference = BF33771728FAEEEE0000A3D8 /* paytv-desafio-mobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF33772028FAEEEE0000A3D8 /* paytv-desafio-mobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF33773128FAEEEE0000A3D8 /* Build configuration list for PBXNativeTarget "paytv-desafio-mobileUITests" */;
+			buildPhases = (
+				BF33771D28FAEEEE0000A3D8 /* Sources */,
+				BF33771E28FAEEEE0000A3D8 /* Frameworks */,
+				BF33771F28FAEEEE0000A3D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF33772328FAEEEE0000A3D8 /* PBXTargetDependency */,
+			);
+			name = "paytv-desafio-mobileUITests";
+			productName = "paytv-desafio-mobileUITests";
+			productReference = BF33772128FAEEEE0000A3D8 /* paytv-desafio-mobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF3376F928FAEEEB0000A3D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					BF33770028FAEEEB0000A3D8 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					BF33771628FAEEEE0000A3D8 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = BF33770028FAEEEB0000A3D8;
+					};
+					BF33772028FAEEEE0000A3D8 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = BF33770028FAEEEB0000A3D8;
+					};
+				};
+			};
+			buildConfigurationList = BF3376FC28FAEEEB0000A3D8 /* Build configuration list for PBXProject "paytv-desafio-mobile" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF3376F828FAEEEB0000A3D8;
+			productRefGroup = BF33770228FAEEEB0000A3D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF33770028FAEEEB0000A3D8 /* paytv-desafio-mobile */,
+				BF33771628FAEEEE0000A3D8 /* paytv-desafio-mobileTests */,
+				BF33772028FAEEEE0000A3D8 /* paytv-desafio-mobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF3376FF28FAEEEB0000A3D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF33771128FAEEED0000A3D8 /* LaunchScreen.storyboard in Resources */,
+				BF33770E28FAEEED0000A3D8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF33771528FAEEEE0000A3D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF33771F28FAEEEE0000A3D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF3376FD28FAEEEB0000A3D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF33770528FAEEEB0000A3D8 /* AppDelegate.swift in Sources */,
+				BF33770728FAEEEB0000A3D8 /* SceneDelegate.swift in Sources */,
+				BF33773B28FAF39F0000A3D8 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF33771328FAEEEE0000A3D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF33771C28FAEEEE0000A3D8 /* paytv_desafio_mobileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF33771D28FAEEEE0000A3D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF33772628FAEEEE0000A3D8 /* paytv_desafio_mobileUITests.swift in Sources */,
+				BF33772828FAEEEE0000A3D8 /* paytv_desafio_mobileUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF33771928FAEEEE0000A3D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF33770028FAEEEB0000A3D8 /* paytv-desafio-mobile */;
+			targetProxy = BF33771828FAEEEE0000A3D8 /* PBXContainerItemProxy */;
+		};
+		BF33772328FAEEEE0000A3D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF33770028FAEEEB0000A3D8 /* paytv-desafio-mobile */;
+			targetProxy = BF33772228FAEEEE0000A3D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF33770F28FAEEED0000A3D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF33771028FAEEED0000A3D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF33772928FAEEEE0000A3D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF33772A28FAEEEE0000A3D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF33772C28FAEEEE0000A3D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "paytv-desafio-mobile/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "junior-fernandes.paytv-desafio-mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF33772D28FAEEEE0000A3D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "paytv-desafio-mobile/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "junior-fernandes.paytv-desafio-mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF33772F28FAEEEE0000A3D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "junior-fernandes.paytv-desafio-mobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/paytv-desafio-mobile.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/paytv-desafio-mobile";
+			};
+			name = Debug;
+		};
+		BF33773028FAEEEE0000A3D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "junior-fernandes.paytv-desafio-mobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/paytv-desafio-mobile.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/paytv-desafio-mobile";
+			};
+			name = Release;
+		};
+		BF33773228FAEEEE0000A3D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "junior-fernandes.paytv-desafio-mobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "paytv-desafio-mobile";
+			};
+			name = Debug;
+		};
+		BF33773328FAEEEE0000A3D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "junior-fernandes.paytv-desafio-mobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "paytv-desafio-mobile";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF3376FC28FAEEEB0000A3D8 /* Build configuration list for PBXProject "paytv-desafio-mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF33772928FAEEEE0000A3D8 /* Debug */,
+				BF33772A28FAEEEE0000A3D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF33772B28FAEEEE0000A3D8 /* Build configuration list for PBXNativeTarget "paytv-desafio-mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF33772C28FAEEEE0000A3D8 /* Debug */,
+				BF33772D28FAEEEE0000A3D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF33772E28FAEEEE0000A3D8 /* Build configuration list for PBXNativeTarget "paytv-desafio-mobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF33772F28FAEEEE0000A3D8 /* Debug */,
+				BF33773028FAEEEE0000A3D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF33773128FAEEEE0000A3D8 /* Build configuration list for PBXNativeTarget "paytv-desafio-mobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF33773228FAEEEE0000A3D8 /* Debug */,
+				BF33773328FAEEEE0000A3D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF3376F928FAEEEB0000A3D8 /* Project object */;
+}
