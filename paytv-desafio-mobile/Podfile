@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'paytv-desafio-mobile' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for paytv-desafio-mobile
+  pod 'Moya'
+  pod 'Alamofire'
+
+  target 'paytv-desafio-mobileTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'paytv-desafio-mobileUITests' do
+    # Pods for testing
+  end
+
+end

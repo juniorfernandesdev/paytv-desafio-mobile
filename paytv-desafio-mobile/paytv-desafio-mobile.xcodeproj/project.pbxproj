@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01BC90B9A1F0BDBABD98E96F /* Pods_paytv_desafio_mobile_paytv_desafio_mobileUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A6991D0773F97AAFC3729D /* Pods_paytv_desafio_mobile_paytv_desafio_mobileUITests.framework */; };
+		A4B6A1B1A00D6092F590C12E /* Pods_paytv_desafio_mobileTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 708CC8532A91E91D2A04E62E /* Pods_paytv_desafio_mobileTests.framework */; };
+		A63AFC15277DCAD1A9604743 /* Pods_paytv_desafio_mobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E069DB59009F6857CCAF3EF /* Pods_paytv_desafio_mobile.framework */; };
 		BF33770528FAEEEB0000A3D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF33770428FAEEEB0000A3D8 /* AppDelegate.swift */; };
 		BF33770728FAEEEB0000A3D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF33770628FAEEEB0000A3D8 /* SceneDelegate.swift */; };
 		BF33770E28FAEEED0000A3D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF33770D28FAEEED0000A3D8 /* Assets.xcassets */; };
@@ -15,6 +18,11 @@
 		BF33772628FAEEEE0000A3D8 /* paytv_desafio_mobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF33772528FAEEEE0000A3D8 /* paytv_desafio_mobileUITests.swift */; };
 		BF33772828FAEEEE0000A3D8 /* paytv_desafio_mobileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF33772728FAEEEE0000A3D8 /* paytv_desafio_mobileUITestsLaunchTests.swift */; };
 		BF33773B28FAF39F0000A3D8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF33773A28FAF39F0000A3D8 /* HomeViewController.swift */; };
+		BF33774028FB1F410000A3D8 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF33773F28FB1F410000A3D8 /* APIConfig.swift */; };
+		BF33774228FB20460000A3D8 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF33774128FB20460000A3D8 /* NetworkManager.swift */; };
+		BF33774428FB20910000A3D8 /* ResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF33774328FB20910000A3D8 /* ResponseHandler.swift */; };
+		BF33774728FB21020000A3D8 /* RequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF33774628FB21020000A3D8 /* RequestHandler.swift */; };
+		BF33774928FB213A0000A3D8 /* NetworkStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF33774828FB213A0000A3D8 /* NetworkStatus.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17B5B7837786811B4F8BCD31 /* Pods-paytv-desafio-mobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paytv-desafio-mobileTests.release.xcconfig"; path = "Target Support Files/Pods-paytv-desafio-mobileTests/Pods-paytv-desafio-mobileTests.release.xcconfig"; sourceTree = "<group>"; };
+		29A6991D0773F97AAFC3729D /* Pods_paytv_desafio_mobile_paytv_desafio_mobileUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_paytv_desafio_mobile_paytv_desafio_mobileUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		330E2559551111EA235B7A85 /* Pods-paytv-desafio-mobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paytv-desafio-mobileTests.debug.xcconfig"; path = "Target Support Files/Pods-paytv-desafio-mobileTests/Pods-paytv-desafio-mobileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4E5FFD3C04424A503229F99B /* Pods-paytv-desafio-mobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paytv-desafio-mobile.debug.xcconfig"; path = "Target Support Files/Pods-paytv-desafio-mobile/Pods-paytv-desafio-mobile.debug.xcconfig"; sourceTree = "<group>"; };
+		5D88A31C5B44C862F0C6D73A /* Pods-paytv-desafio-mobile-paytv-desafio-mobileUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paytv-desafio-mobile-paytv-desafio-mobileUITests.debug.xcconfig"; path = "Target Support Files/Pods-paytv-desafio-mobile-paytv-desafio-mobileUITests/Pods-paytv-desafio-mobile-paytv-desafio-mobileUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		708CC8532A91E91D2A04E62E /* Pods_paytv_desafio_mobileTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_paytv_desafio_mobileTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E069DB59009F6857CCAF3EF /* Pods_paytv_desafio_mobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_paytv_desafio_mobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B50F692EB6E82C14991E8B66 /* Pods-paytv-desafio-mobile-paytv-desafio-mobileUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paytv-desafio-mobile-paytv-desafio-mobileUITests.release.xcconfig"; path = "Target Support Files/Pods-paytv-desafio-mobile-paytv-desafio-mobileUITests/Pods-paytv-desafio-mobile-paytv-desafio-mobileUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BF33770128FAEEEB0000A3D8 /* paytv-desafio-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "paytv-desafio-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF33770428FAEEEB0000A3D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF33770628FAEEEB0000A3D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +63,12 @@
 		BF33772528FAEEEE0000A3D8 /* paytv_desafio_mobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paytv_desafio_mobileUITests.swift; sourceTree = "<group>"; };
 		BF33772728FAEEEE0000A3D8 /* paytv_desafio_mobileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paytv_desafio_mobileUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BF33773A28FAF39F0000A3D8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BF33773F28FB1F410000A3D8 /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		BF33774128FB20460000A3D8 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		BF33774328FB20910000A3D8 /* ResponseHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseHandler.swift; sourceTree = "<group>"; };
+		BF33774628FB21020000A3D8 /* RequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHandler.swift; sourceTree = "<group>"; };
+		BF33774828FB213A0000A3D8 /* NetworkStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkStatus.swift; sourceTree = "<group>"; };
+		FC99677C69727BF8DC4CEBE9 /* Pods-paytv-desafio-mobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paytv-desafio-mobile.release.xcconfig"; path = "Target Support Files/Pods-paytv-desafio-mobile/Pods-paytv-desafio-mobile.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A63AFC15277DCAD1A9604743 /* Pods_paytv_desafio_mobile.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4B6A1B1A00D6092F590C12E /* Pods_paytv_desafio_mobileTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +92,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01BC90B9A1F0BDBABD98E96F /* Pods_paytv_desafio_mobile_paytv_desafio_mobileUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C2301042F1A157ED0B46551 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E5FFD3C04424A503229F99B /* Pods-paytv-desafio-mobile.debug.xcconfig */,
+				FC99677C69727BF8DC4CEBE9 /* Pods-paytv-desafio-mobile.release.xcconfig */,
+				5D88A31C5B44C862F0C6D73A /* Pods-paytv-desafio-mobile-paytv-desafio-mobileUITests.debug.xcconfig */,
+				B50F692EB6E82C14991E8B66 /* Pods-paytv-desafio-mobile-paytv-desafio-mobileUITests.release.xcconfig */,
+				330E2559551111EA235B7A85 /* Pods-paytv-desafio-mobileTests.debug.xcconfig */,
+				17B5B7837786811B4F8BCD31 /* Pods-paytv-desafio-mobileTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3D049ED05B1D96A6ADE9C3B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E069DB59009F6857CCAF3EF /* Pods_paytv_desafio_mobile.framework */,
+				29A6991D0773F97AAFC3729D /* Pods_paytv_desafio_mobile_paytv_desafio_mobileUITests.framework */,
+				708CC8532A91E91D2A04E62E /* Pods_paytv_desafio_mobileTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BF3376F828FAEEEB0000A3D8 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +129,8 @@
 				BF33771A28FAEEEE0000A3D8 /* paytv-desafio-mobileTests */,
 				BF33772428FAEEEE0000A3D8 /* paytv-desafio-mobileUITests */,
 				BF33770228FAEEEB0000A3D8 /* Products */,
+				2C2301042F1A157ED0B46551 /* Pods */,
+				3D049ED05B1D96A6ADE9C3B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,6 +174,7 @@
 		BF33773428FAF17D0000A3D8 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				BF33773C28FB005F0000A3D8 /* Layers */,
 				BF33773628FAF1980000A3D8 /* AppAssets */,
 			);
 			path = Shared;
@@ -164,6 +215,58 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		BF33773C28FB005F0000A3D8 /* Layers */ = {
+			isa = PBXGroup;
+			children = (
+				BF33773D28FB00690000A3D8 /* Network */,
+			);
+			path = Layers;
+			sourceTree = "<group>";
+		};
+		BF33773D28FB00690000A3D8 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				BF33773E28FB00A50000A3D8 /* Endpoints */,
+				BF33774C28FB23100000A3D8 /* Helpers */,
+				BF33774B28FB22F30000A3D8 /* Resquest */,
+				BF33774A28FB22EE0000A3D8 /* Response */,
+				BF33774128FB20460000A3D8 /* NetworkManager.swift */,
+				BF33774828FB213A0000A3D8 /* NetworkStatus.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		BF33773E28FB00A50000A3D8 /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				BF33773F28FB1F410000A3D8 /* APIConfig.swift */,
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		BF33774A28FB22EE0000A3D8 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		BF33774B28FB22F30000A3D8 /* Resquest */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resquest;
+			sourceTree = "<group>";
+		};
+		BF33774C28FB23100000A3D8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BF33774328FB20910000A3D8 /* ResponseHandler.swift */,
+				BF33774628FB21020000A3D8 /* RequestHandler.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -171,9 +274,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF33772B28FAEEEE0000A3D8 /* Build configuration list for PBXNativeTarget "paytv-desafio-mobile" */;
 			buildPhases = (
+				2CC6C6A9291BF986A1DDE87E /* [CP] Check Pods Manifest.lock */,
 				BF3376FD28FAEEEB0000A3D8 /* Sources */,
 				BF3376FE28FAEEEB0000A3D8 /* Frameworks */,
 				BF3376FF28FAEEEB0000A3D8 /* Resources */,
+				5C3532F4F06B0F4301F2EE0F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -188,6 +293,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF33772E28FAEEEE0000A3D8 /* Build configuration list for PBXNativeTarget "paytv-desafio-mobileTests" */;
 			buildPhases = (
+				3904A3793B0BF968DFCC2DBF /* [CP] Check Pods Manifest.lock */,
 				BF33771328FAEEEE0000A3D8 /* Sources */,
 				BF33771428FAEEEE0000A3D8 /* Frameworks */,
 				BF33771528FAEEEE0000A3D8 /* Resources */,
@@ -206,9 +312,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF33773128FAEEEE0000A3D8 /* Build configuration list for PBXNativeTarget "paytv-desafio-mobileUITests" */;
 			buildPhases = (
+				6F1CA084B93292C0C9F1E301 /* [CP] Check Pods Manifest.lock */,
 				BF33771D28FAEEEE0000A3D8 /* Sources */,
 				BF33771E28FAEEEE0000A3D8 /* Frameworks */,
 				BF33771F28FAEEEE0000A3D8 /* Resources */,
+				A37F15658A11BC74721DC4B5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -289,14 +397,122 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2CC6C6A9291BF986A1DDE87E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-paytv-desafio-mobile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3904A3793B0BF968DFCC2DBF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-paytv-desafio-mobileTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C3532F4F06B0F4301F2EE0F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-paytv-desafio-mobile/Pods-paytv-desafio-mobile-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-paytv-desafio-mobile/Pods-paytv-desafio-mobile-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-paytv-desafio-mobile/Pods-paytv-desafio-mobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F1CA084B93292C0C9F1E301 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-paytv-desafio-mobile-paytv-desafio-mobileUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A37F15658A11BC74721DC4B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-paytv-desafio-mobile-paytv-desafio-mobileUITests/Pods-paytv-desafio-mobile-paytv-desafio-mobileUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-paytv-desafio-mobile-paytv-desafio-mobileUITests/Pods-paytv-desafio-mobile-paytv-desafio-mobileUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-paytv-desafio-mobile-paytv-desafio-mobileUITests/Pods-paytv-desafio-mobile-paytv-desafio-mobileUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BF3376FD28FAEEEB0000A3D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF33774728FB21020000A3D8 /* RequestHandler.swift in Sources */,
 				BF33770528FAEEEB0000A3D8 /* AppDelegate.swift in Sources */,
 				BF33770728FAEEEB0000A3D8 /* SceneDelegate.swift in Sources */,
+				BF33774228FB20460000A3D8 /* NetworkManager.swift in Sources */,
+				BF33774928FB213A0000A3D8 /* NetworkStatus.swift in Sources */,
+				BF33774028FB1F410000A3D8 /* APIConfig.swift in Sources */,
 				BF33773B28FAF39F0000A3D8 /* HomeViewController.swift in Sources */,
+				BF33774428FB20910000A3D8 /* ResponseHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +676,7 @@
 		};
 		BF33772C28FAEEEE0000A3D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E5FFD3C04424A503229F99B /* Pods-paytv-desafio-mobile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -486,6 +703,7 @@
 		};
 		BF33772D28FAEEEE0000A3D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC99677C69727BF8DC4CEBE9 /* Pods-paytv-desafio-mobile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -512,6 +730,7 @@
 		};
 		BF33772F28FAEEEE0000A3D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 330E2559551111EA235B7A85 /* Pods-paytv-desafio-mobileTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -531,6 +750,7 @@
 		};
 		BF33773028FAEEEE0000A3D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17B5B7837786811B4F8BCD31 /* Pods-paytv-desafio-mobileTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -550,6 +770,7 @@
 		};
 		BF33773228FAEEEE0000A3D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D88A31C5B44C862F0C6D73A /* Pods-paytv-desafio-mobile-paytv-desafio-mobileUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -567,6 +788,7 @@
 		};
 		BF33773328FAEEEE0000A3D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B50F692EB6E82C14991E8B66 /* Pods-paytv-desafio-mobile-paytv-desafio-mobileUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,6 @@
+framework module Pods_paytv_desafio_mobile_paytv_desafio_mobileUITests {
+  umbrella header "Pods-paytv-desafio-mobile-paytv-desafio-mobileUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
