@@ -28,6 +28,9 @@ DerivedData/
 
 ##other files
 **/.DS_Store
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
 
 ## Obj-C/Swift specific
 *.hmap
