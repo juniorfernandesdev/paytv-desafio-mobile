@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,11 @@
 		BF33772628FAEEEE0000A3D8 /* paytv_desafio_mobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF33772528FAEEEE0000A3D8 /* paytv_desafio_mobileUITests.swift */; };
 		BF33772828FAEEEE0000A3D8 /* paytv_desafio_mobileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF33772728FAEEEE0000A3D8 /* paytv_desafio_mobileUITestsLaunchTests.swift */; };
 		BF33773B28FAF39F0000A3D8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF33773A28FAF39F0000A3D8 /* HomeViewController.swift */; };
+		BF33774028FB1F410000A3D8 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF33773F28FB1F410000A3D8 /* APIConfig.swift */; };
+		BF33774228FB20460000A3D8 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF33774128FB20460000A3D8 /* NetworkManager.swift */; };
+		BF33774428FB20910000A3D8 /* ResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF33774328FB20910000A3D8 /* ResponseHandler.swift */; };
+		BF33774728FB21020000A3D8 /* RequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF33774628FB21020000A3D8 /* RequestHandler.swift */; };
+		BF33774928FB213A0000A3D8 /* NetworkStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF33774828FB213A0000A3D8 /* NetworkStatus.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +63,11 @@
 		BF33772528FAEEEE0000A3D8 /* paytv_desafio_mobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paytv_desafio_mobileUITests.swift; sourceTree = "<group>"; };
 		BF33772728FAEEEE0000A3D8 /* paytv_desafio_mobileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paytv_desafio_mobileUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BF33773A28FAF39F0000A3D8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BF33773F28FB1F410000A3D8 /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		BF33774128FB20460000A3D8 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		BF33774328FB20910000A3D8 /* ResponseHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseHandler.swift; sourceTree = "<group>"; };
+		BF33774628FB21020000A3D8 /* RequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHandler.swift; sourceTree = "<group>"; };
+		BF33774828FB213A0000A3D8 /* NetworkStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkStatus.swift; sourceTree = "<group>"; };
 		FC99677C69727BF8DC4CEBE9 /* Pods-paytv-desafio-mobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paytv-desafio-mobile.release.xcconfig"; path = "Target Support Files/Pods-paytv-desafio-mobile/Pods-paytv-desafio-mobile.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,7 +109,6 @@
 				330E2559551111EA235B7A85 /* Pods-paytv-desafio-mobileTests.debug.xcconfig */,
 				17B5B7837786811B4F8BCD31 /* Pods-paytv-desafio-mobileTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -165,6 +174,7 @@
 		BF33773428FAF17D0000A3D8 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				BF33773C28FB005F0000A3D8 /* Layers */,
 				BF33773628FAF1980000A3D8 /* AppAssets */,
 			);
 			path = Shared;
@@ -203,6 +213,58 @@
 				BF33773A28FAF39F0000A3D8 /* HomeViewController.swift */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		BF33773C28FB005F0000A3D8 /* Layers */ = {
+			isa = PBXGroup;
+			children = (
+				BF33773D28FB00690000A3D8 /* Network */,
+			);
+			path = Layers;
+			sourceTree = "<group>";
+		};
+		BF33773D28FB00690000A3D8 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				BF33773E28FB00A50000A3D8 /* Endpoints */,
+				BF33774C28FB23100000A3D8 /* Helpers */,
+				BF33774B28FB22F30000A3D8 /* Resquest */,
+				BF33774A28FB22EE0000A3D8 /* Response */,
+				BF33774128FB20460000A3D8 /* NetworkManager.swift */,
+				BF33774828FB213A0000A3D8 /* NetworkStatus.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		BF33773E28FB00A50000A3D8 /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				BF33773F28FB1F410000A3D8 /* APIConfig.swift */,
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		BF33774A28FB22EE0000A3D8 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		BF33774B28FB22F30000A3D8 /* Resquest */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resquest;
+			sourceTree = "<group>";
+		};
+		BF33774C28FB23100000A3D8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BF33774328FB20910000A3D8 /* ResponseHandler.swift */,
+				BF33774628FB21020000A3D8 /* RequestHandler.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -443,9 +505,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF33774728FB21020000A3D8 /* RequestHandler.swift in Sources */,
 				BF33770528FAEEEB0000A3D8 /* AppDelegate.swift in Sources */,
 				BF33770728FAEEEB0000A3D8 /* SceneDelegate.swift in Sources */,
+				BF33774228FB20460000A3D8 /* NetworkManager.swift in Sources */,
+				BF33774928FB213A0000A3D8 /* NetworkStatus.swift in Sources */,
+				BF33774028FB1F410000A3D8 /* APIConfig.swift in Sources */,
 				BF33773B28FAF39F0000A3D8 /* HomeViewController.swift in Sources */,
+				BF33774428FB20910000A3D8 /* ResponseHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
