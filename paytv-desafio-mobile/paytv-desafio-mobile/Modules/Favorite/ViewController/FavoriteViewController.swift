@@ -1,5 +1,5 @@
 //
-//  HomeViewController.swift
+//  FavoriteViewController.swift
 //  paytv-desafio-mobile
 //
 //  Created by Junior Fernandes on 15/10/22.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class FavoriteViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
