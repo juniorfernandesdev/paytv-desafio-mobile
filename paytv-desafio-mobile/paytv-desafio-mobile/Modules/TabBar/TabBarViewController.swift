@@ -14,9 +14,7 @@ class TabBarViewController: UITabBarController {
     }
     
     private func setupTabBarController() {
-        let homeScreen = UINavigationController(rootViewController: HomeViewController())
-        let favoriteScreen = UINavigationController(rootViewController: FavoriteViewController())
-        self.setViewControllers([homeScreen, favoriteScreen], animated: true)
+        self.setViewControllers([HomeViewController(), FavoriteViewController()], animated: true)
         
         configTabBar()
     }
